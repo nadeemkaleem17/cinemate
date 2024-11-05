@@ -1,0 +1,21 @@
+API KEY: 4583f1e038d58d3e15c018150566d3f9
+
+
+Individual:
+https://api.themoviedb.org/3/movie/2
+
+Now Playing:
+https://api.themoviedb.org/3/movie/now_playing?page=2
+
+Popular:
+https://api.themoviedb.org/3/movie/popular?page=1
+
+Top Rated:
+https://api.themoviedb.org/3/movie/top_rated?page=1
+
+Upcoming:
+https://api.themoviedb.org/3/movie/upcoming?page=1
+
+Search:
+
+https://api.themoviedb.org/3/search/movie?query=venom
