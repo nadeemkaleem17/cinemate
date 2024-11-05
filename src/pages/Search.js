@@ -8,7 +8,7 @@ export const Search = ({ apiPath }) => {
   // console.log(queryTerm);
   const url = `https://api.themoviedb.org/3/${apiPath}?api_key=${process.env.REACT_APP_API_KEY}&query=${queryTerm}`;
   const { data: movies } = useFetch(url, queryTerm);
-  useTitle(`Search result for ${queryTerm}`);
+  useTitle(`Searched Results for ${queryTerm}`);
   return (
     <main>
       <section className="py-7">
